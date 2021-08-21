@@ -1,4 +1,4 @@
-package one.digitalinnovation.personapi.dto;
+package one.digitalinnovation.personapi.dto.response;
 
 
 import lombok.Builder;
@@ -9,5 +9,5 @@ import lombok.Data;
 
 public class MessageResponseDTO {
 
-    public String message;
+    private String message;
 }
